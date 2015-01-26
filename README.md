@@ -1,5 +1,7 @@
 # binomial-cdf
 
+[![Build Status][travis-svg]][travis]
+
 Binomial cumulative distribution function.
 
 ## Example
@@ -27,3 +29,7 @@ var cdf = require('binomial-cdf');
 
 Returns the probability of having **at most** _Number_ `k` successes in _Number_
 `n` trials, given that the probability of a success is _Number_ `p`.
+
+
+   [travis]: https://travis-ci.org/KenanY/binomial-cdf
+   [travis-svg]: https://img.shields.io/travis/KenanY/binomial-cdf.svg
