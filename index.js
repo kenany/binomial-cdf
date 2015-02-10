@@ -1,7 +1,7 @@
 var binomial = require('choose');
 
 function cdf(k, n, p) {
-  var k = Math.floor(k);
+  k = Math.floor(k);
 
   var sum = 0;
 
