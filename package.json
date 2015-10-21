@@ -1,6 +1,6 @@
 {
   "name": "binomial-cdf",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Binomial cumulative distribution function",
   "keywords": [
     "math",
