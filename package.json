@@ -24,7 +24,7 @@
     "choose": "^0.0.0"
   },
   "devDependencies": {
-    "lodash.isfunction": "^2.4.1",
+    "lodash.isfunction": "^3.0.6",
     "tape": "^4.0.0"
   }
 }
