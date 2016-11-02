@@ -18,12 +18,15 @@
     "test": "test"
   },
   "scripts": {
+    "pretest": "eslint *.js test/*.js",
     "test": "tape test/index.js"
   },
   "dependencies": {
     "choose": "^0.0.0"
   },
   "devDependencies": {
+    "@kenan/eslint-config": "^4.0.0",
+    "eslint": "^3.9.1",
     "lodash.isfunction": "^3.0.6",
     "tape": "^4.0.0"
   }
