@@ -28,7 +28,7 @@
     "choose": "^0.0.0"
   },
   "devDependencies": {
-    "@kenan/eslint-config": "^4.0.0",
+    "@kenan/eslint-config": "^5.0.0",
     "eslint": "^4.1.1",
     "lodash.isfunction": "^3.0.6",
     "nyc": "^11.0.3",
