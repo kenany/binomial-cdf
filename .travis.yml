@@ -1,5 +1,6 @@
 language: node_js
 node_js:
+  - '9'
   - '8'
   - '6'
   - '4'
@@ -20,3 +21,5 @@ matrix:
       env: LINT=true
     - node_js: '8'
       env: COVERAGE=true
+  allow_failures:
+    - node_js: '9'
