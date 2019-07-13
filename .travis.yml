@@ -3,23 +3,9 @@ node_js:
   - '10'
   - '8'
   - '6'
-  - '4'
 before_install:
   - npm install -g npm
   - npm --version
 script:
-  - 'if [ -n "${LINT-}" ]; then npm run -s lint ; fi'
-  - 'if [ -n "${COVERAGE-}" ]; then npm run -s coverage ; fi'
-  - 'if [ -n "${TEST-}" ]; then npm run -s tests-only ; fi'
-sudo: false
-env:
-  - TEST=true
-matrix:
-  fast_finish: true
-  include:
-    - node_js: '10'
-      env: LINT=true
-    - node_js: '10'
-      env: COVERAGE=true
-  allow_failures:
-    - node_js: '4'
+  - npm run coverage
+  - npm run lint
