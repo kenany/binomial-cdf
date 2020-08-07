@@ -17,6 +17,9 @@
   "directories": {
     "test": "test"
   },
+  "engines": {
+    "node": "8 || 10 || 12 || >=14"
+  },
   "scripts": {
     "pretest": "npm run -s lint",
     "test": "npm run -s tests-only",
