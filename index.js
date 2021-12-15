@@ -1,5 +1,11 @@
 var binomial = require('choose');
 
+/**
+ * @param {number} k
+ * @param {number} n
+ * @param {number} p
+ * @returns {number}
+ */
 function cdf(k, n, p) {
   k = Math.floor(k);
 

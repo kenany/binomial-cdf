@@ -8,7 +8,7 @@
   ],
   "repository": "KenanY/binomial-cdf",
   "license": "MIT",
-  "author": "Kenan Yildirim <kenan@kenany.me> (http://kenany.me/)",
+  "author": "Kenan Yildirim <kenan@kenany.me> (https://kenany.me/)",
   "main": "index.js",
   "files": [
     "index.js",
@@ -18,14 +18,15 @@
     "test": "test"
   },
   "engines": {
-    "node": "10 || 12 || >=14"
+    "node": "12 || 14 || >=16"
   },
   "scripts": {
     "pretest": "npm run -s lint",
     "test": "npm run -s tests-only",
     "tests-only": "tape test/index.js",
     "coverage": "nyc npm run -s tests-only",
-    "lint": "eslint *.js test/*.js"
+    "lint": "eslint *.js test/*.js",
+    "release": "semantic-release"
   },
   "dependencies": {
     "choose": "^0.0.0"
@@ -33,9 +34,13 @@
   "devDependencies": {
     "@kenan/eslint-config": "^9.0.4",
     "@kenan/renovate-config": "^1.5.1",
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/git": "^10.0.1",
+    "conventional-changelog-conventionalcommits": "^4.6.1",
     "eslint": "^7.32.0",
-    "lodash.isfunction": "3.0.9",
-    "nyc": "15.1.0",
-    "tape": "5.3.2"
+    "lodash.isfunction": "^3.0.9",
+    "nyc": "^15.1.0",
+    "semantic-release": "^18.0.1",
+    "tape": "^5.3.2"
   }
 }
