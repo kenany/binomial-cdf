@@ -1,3 +1,14 @@
+## [3.0.0](https://github.com/KenanY/binomial-cdf/compare/2.0.0...3.0.0) (2022-12-22)
+
+
+### ⚠ BREAKING CHANGES
+
+* Node.js v12 is no longer supported.
+
+### Features
+
+* drop Node.js v12 support ([a45f8a5](https://github.com/KenanY/binomial-cdf/commit/a45f8a52f6745552b1bee946254e88bf8ce3444e))
+
 ## [2.0.0](https://github.com/KenanY/binomial-cdf/compare/1.0.4...2.0.0) (2021-12-15)
 
 
