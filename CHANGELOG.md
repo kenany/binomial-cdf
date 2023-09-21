@@ -1,3 +1,14 @@
+## [4.0.0](https://github.com/kenany/binomial-cdf/compare/3.0.0...4.0.0) (2023-09-21)
+
+
+### ⚠ BREAKING CHANGES
+
+* Node.js v14 and v16 are no longer supported.
+
+### Features
+
+* drop Node.js v14 and v16 ([757b108](https://github.com/kenany/binomial-cdf/commit/757b108d8a76f3ae437c8e46e3f448cadc3deb72))
+
 ## [3.0.0](https://github.com/KenanY/binomial-cdf/compare/2.0.0...3.0.0) (2022-12-22)
 
 
